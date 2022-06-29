@@ -1,0 +1,25 @@
+{
+  "name": "smart-date",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare" : "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricopezzini/smart-date.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enricopezzini/smart-date/issues"
+  },
+  "homepage": "https://github.com/enricopezzini/smart-date#readme",
+  "devDependencies": {
+    "typescript": "4.7.4"
+  },
+  "files": ["lib/**/*"]
+}
